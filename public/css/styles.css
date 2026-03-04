@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #faf8f4;
+}
+
 h1,
 h2,
 p {
