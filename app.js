@@ -1,3 +1,5 @@
+//TODO: wire up backend, build user page
+
 import dotenv from "dotenv";
 
 dotenv.config({ path: ".env" });
