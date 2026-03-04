@@ -1,12 +1,13 @@
+import { buildMainForm } from "./forms/main-form.js";
+
 const displayElement = document.getElementById("display-element");
 
 export const buildMainDisplay = async () => {
   if (!displayElement) return null;
 
-  //   const data = await buildMainForm();
-  const data = "Hello World";
+  const form = await buildMainForm();
 
-  displayElement.append(data);
+  displayElement.append(form);
 
   return true;
 };
